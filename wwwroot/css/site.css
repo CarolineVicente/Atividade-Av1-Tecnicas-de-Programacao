@@ -16,3 +16,60 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+body::before {
+  content: "";
+  margin-bottom: 60px;
+  background-image: url("https://wallpaperset.com/w/full/8/3/8/249232.jpg");
+  background-repeat: repeat;
+  opacity: 0.2;
+  z-index: -1;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+.text-center {
+  margin-top: 60px;
+  color: #D23369;
+}
+
+.text-conteudo h2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #F06292;
+}
+
+.personagens {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-items: center;
+}
+
+.personagens p {
+  font: 400 1.125rem/1.35, "Poppins", sans-serif;
+}
+
+.text-final {
+  text-align: center;
+  color:  #D23369;
+  margin-top: 60px;
+}
+
+.text-final h2 {
+  margin-bottom: 60px;
+}
+
+.text-agradecimento {
+  margin-top: 80px;
+  text-align: center;
+  color:  #D23369;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
